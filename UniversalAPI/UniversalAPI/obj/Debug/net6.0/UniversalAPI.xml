@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UniversalAPI</name>
+    </assembly>
+    <members>
+        <member name="M:UniversalAPI.Controllers.Core.MyControllerBase.GetActionResultAndLoadDataAsync``1(System.Func{System.Threading.Tasks.Task{``0}})">
+            <summary>
+            Controller base for data loading based controller
+            </summary>
+            <returns>IActionResult</returns>
+        </member>
+        <member name="M:UniversalAPI.Controllers.Core.MyControllerBase.GetLogContent(System.String,System.Int32,System.Int32,System.Int64,System.String)">
+            <summary>
+            Creates a log model and serializes it into a json object
+            </summary>
+            <param name="service">Controller interface</param>
+            <param name="statusCode">Status code</param>
+            <param name="responseLength">Size of the response (list.Count)</param>
+            <param name="latency">Application time passed for the process</param>
+            <param name="message">Additional message</param>
+            <returns>Json</returns>
+        </member>
+        <member name="T:UniversalAPI.Controllers.Demo.DemoController">
+            <summary>
+            this is a demo controller
+            </summary>
+        </member>
+        <member name="M:UniversalAPI.Controllers.Demo.DemoController.GetTrains">
+            <summary>
+            Get list of all trains
+            </summary>
+        </member>
+        <member name="P:UniversalAPI.Logger.Models.LogModel.asctime">
+            <summary>
+            Logzeit in UTS
+            </summary>
+        </member>
+    </members>
+</doc>
