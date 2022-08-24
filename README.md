@@ -4,7 +4,7 @@ Improved version of UniveralAPI_V1
 # About UniveralApi
 UniversalAPI is a template for asp.net core 6 services and ready to use.
 <br/>This template has configured:
-- Swagger documentation
+- swagger documentation
 - custom logger
 - dependency injection
 - cors policy 
